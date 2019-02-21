@@ -40,13 +40,7 @@ cout << "Wybierz funkcje! (1-9):";
 cin >> wybor;
 cout << "\n";
 	  
-//Warunek wielokrotnego wyboru switch ... case
-switch( wybor )
-    {
-    case 1: //Dodawanie
-    	cout << "Wynik dodawania liczby " << a << " z " << b << " wynosi: " << a+b;
-        break;
-        
+
     case 2: //Odejmowanie
     	cout << "Wynik odejmowania liczby " << a << " z " << b << " wynosi: " << a-b;
         break;
