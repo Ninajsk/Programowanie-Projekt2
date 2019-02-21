@@ -45,20 +45,40 @@ switch( wybor )
     case 2: //Odejmowanie
     	cout << "Wynik odejmowania liczby " << a << " z " << b << " wynosi: " << a-b;
         break;
+	
+    case 3: //Mnozenie
+    	cout << "Wynik pomnozenia liczby " << a << " z " << b << " wynosi: " << a*b;
+        break;
         
-        
+    case 4: //Dzielenie
+    	cout << "Wynik podzielenia liczby " << a << " z " << b << " wynosi: " << (float)a/(float)b;
+    	cout << "\n Wowczas odwrotnie " << b << " z " << a << " wynosi: " << (float)b/(float)a;
+        break;
+         
+    case 5: //Potegi
+	cout << "Podstawa: " << a << "\n Wykladnik: " << b << "\n Potega twojej liczby: " << pow(a,b) << endl;
+        break;
         
     case 6: //Pierwiastek
     	float liczba, stopien;
- 
-	    cout << "Liczba: " << a << "\n Stopien: " << b << "\n Pierwiastek twojej liczby: " << pow((float)a, 1/(float)b);
- 
+	cout << "Liczba: " << a << "\n Stopien: " << b << "\n Pierwiastek twojej liczby: " << pow((float)a, 1/(float)b);
+        break;
+	
+    case 7: //Modulo
+    	cout << a <<" modulo " << b << " = "<< a % b << endl;
+	cout << b <<" modulo " << a << " = "<< b % a << endl;
         break;
         
+    case 8: //Inkrementacja
+    	a++; b++;
+	cout << "Liczba pierwsza po inkrementacji wyglada nastepujaco: " << a 
+ 	<< "\n Liczba druga to: " << b;
+        break;
+	
     case 9: //Dekrementacja
        a--; b--;
-		  cout << "Liczba pierwsza po dekrementacji wyglada nastepujaco: " << a 
-		                                  << "\n Liczba druga natomiast: " << b;
+	cout << "Liczba pierwsza po dekrementacji wyglada nastepujaco: " << a 
+	<< "\n Liczba druga natomiast: " << b;
         break;
         
     default: //Jest to domyslna opcja ktora aktywuje sie, gdy uzytkownik wpisze cos poza naszej opcj (1-9)
