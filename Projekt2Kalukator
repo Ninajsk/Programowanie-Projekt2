@@ -6,7 +6,7 @@ using namespace std;
 
 int main(int argc, char** argv) {
 //PRZYPISANIE ZMIENNYCH
-int a, b, wybor, wyborprocenty, x, y, wynik;
+int a, b, wybor, x, y, wynik;
 char znak;
 
 //DO WHILE, WYBOR DLA UZYTKOWNIKA JAK PROGRAM SIE ZAKONCZY
@@ -82,7 +82,7 @@ switch( wybor )
         break;
         
     default: //Jest to domyslna opcja ktora aktywuje sie, gdy uzytkownik wpisze cos poza naszej opcj (1-9)
-      cout << "Prosze wybrac funkcje! (1-11)" << endl;
+      cout << "Prosze wybrac funkcje! (1-9)" << endl;
         break;
     }
 		//CZY PROGRAM MA SIE ZAKONCZYł
